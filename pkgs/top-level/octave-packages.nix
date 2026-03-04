@@ -118,6 +118,8 @@ makeScope newScope (
       inherit (pkgs) gsl;
     };
 
+    hdf5oct = callPackage ../development/octave-modules/hdf5oct { };
+
     hgsetget = callPackage ../development/octave-modules/hgsetget { };
 
     image = callPackage ../development/octave-modules/image {
