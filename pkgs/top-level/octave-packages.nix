@@ -106,6 +106,8 @@ makeScope newScope (
 
     fuzzy-logic-toolkit = callPackage ../development/octave-modules/fuzzy-logic-toolkit { };
 
+    fxp = callPackage ../development/octave-modules/fxp { };
+
     ga = callPackage ../development/octave-modules/ga { };
 
     general = callPackage ../development/octave-modules/general {
