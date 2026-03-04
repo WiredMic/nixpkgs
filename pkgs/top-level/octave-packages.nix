@@ -116,6 +116,10 @@ makeScope newScope (
 
     generate_html = callPackage ../development/octave-modules/generate_html { };
 
+    geographiclib = callPackage ../development/octave-modules/geographiclib {
+      inherit (pkgs) cmake;
+    };
+
     geometry = callPackage ../development/octave-modules/geometry { };
 
     gsl = callPackage ../development/octave-modules/gsl {
