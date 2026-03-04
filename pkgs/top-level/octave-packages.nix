@@ -139,6 +139,10 @@ makeScope newScope (
 
     interval = callPackage ../development/octave-modules/interval { };
 
+    joystick = callPackage ../development/octave-modules/joystick {
+      inherit (pkgs) SDL2;
+    };
+
     linear-algebra = callPackage ../development/octave-modules/linear-algebra { };
 
     llms = callPackage ../development/octave-modules/llms { };
