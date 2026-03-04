@@ -156,6 +156,10 @@ makeScope newScope (
 
     miscellaneous = callPackage ../development/octave-modules/miscellaneous { };
 
+    mqtt = callPackage ../development/octave-modules/mqtt {
+      inherit (pkgs) paho-mqtt-c;
+    };
+
     msh = callPackage ../development/octave-modules/msh {
       # PLACEHOLDER until KarlJoad gets dolfin packaged.
       dolfin = null;
