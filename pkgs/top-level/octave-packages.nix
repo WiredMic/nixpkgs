@@ -191,6 +191,10 @@ makeScope newScope (
 
     optiminterp = callPackage ../development/octave-modules/optiminterp { };
 
+    pkg-octave-doc = callPackage ../development/octave-modules/pkg-octave-doc {
+      inherit (pkgs) texi2html;
+    };
+
     quaternion = callPackage ../development/octave-modules/quaternion { };
 
     queueing = callPackage ../development/octave-modules/queueing { };
