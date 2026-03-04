@@ -76,6 +76,8 @@ makeScope newScope (
 
     cgi = callPackage ../development/octave-modules/cgi { };
 
+    coder = callPackage ../development/octave-modules/coder { };
+
     communications = callPackage ../development/octave-modules/communications { };
 
     control = callPackage ../development/octave-modules/control { };
