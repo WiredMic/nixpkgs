@@ -167,6 +167,8 @@ makeScope newScope (
 
     nurbs = callPackage ../development/octave-modules/nurbs { };
 
+    odbc = callPackage ../development/octave-modules/odbc { };
+
     ocl = callPackage ../development/octave-modules/ocl { };
 
     octclip = callPackage ../development/octave-modules/octclip { };
