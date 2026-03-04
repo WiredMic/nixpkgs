@@ -134,6 +134,8 @@ makeScope newScope (
 
     linear-algebra = callPackage ../development/octave-modules/linear-algebra { };
 
+    llms = callPackage ../development/octave-modules/llms { };
+
     lssa = callPackage ../development/octave-modules/lssa { };
 
     ltfat = callPackage ../development/octave-modules/ltfat {
