@@ -206,6 +206,10 @@ makeScope newScope (
       inherit (octave) python;
     };
 
+    tablicious = callPackage ../development/octave-modules/tablicious {
+      inherit (pkgs) tzdata;
+    };
+
     tsa = callPackage ../development/octave-modules/tsa { };
 
     video = callPackage ../development/octave-modules/video { };
