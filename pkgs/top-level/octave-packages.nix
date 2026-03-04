@@ -62,6 +62,13 @@ makeScope newScope (
       writeRequiredOctavePackagesHook
       ;
 
+    apa = callPackage ../development/octave-modules/apa {
+      inherit (pkgs)
+        gmp
+        mpfr
+        ;
+    };
+
     arduino = callPackage ../development/octave-modules/arduino {
       inherit (pkgs) arduino-core-unwrapped;
     };
