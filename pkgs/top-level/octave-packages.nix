@@ -164,6 +164,10 @@ makeScope newScope (
 
     matgeom = callPackage ../development/octave-modules/matgeom { };
 
+    mboct-octave-pkg = callPackage ../development/octave-modules/mboct-octave-pkg {
+      inherit (pkgs) gtest;
+    };
+
     miscellaneous = callPackage ../development/octave-modules/miscellaneous { };
 
     mqtt = callPackage ../development/octave-modules/mqtt {
