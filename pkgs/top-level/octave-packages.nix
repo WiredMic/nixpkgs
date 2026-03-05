@@ -229,6 +229,10 @@ makeScope newScope (
       inherit (octave) python;
     };
 
+    octave_toml11 = callPackage ../development/octave-modules/octave_toml11 {
+      inherit (pkgs) toml11;
+    };
+
     octclip = callPackage ../development/octave-modules/octclip { };
 
     octproj = callPackage ../development/octave-modules/octproj { };
@@ -238,6 +242,8 @@ makeScope newScope (
     optim = callPackage ../development/octave-modules/optim { };
 
     optiminterp = callPackage ../development/octave-modules/optiminterp { };
+
+    piqp = callPackage ../development/octave-modules/piqp { };
 
     pkg-octave-doc = callPackage ../development/octave-modules/pkg-octave-doc {
       inherit (pkgs) texi2html;
