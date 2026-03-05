@@ -78,6 +78,8 @@ makeScope newScope (
 
     control = callPackage ../development/octave-modules/control { };
 
+    csg-toolkit = callPackage ../development/octave-modules/csg-toolkit { };
+
     data-smoothing = callPackage ../development/octave-modules/data-smoothing { };
 
     database = callPackage ../development/octave-modules/database { };
