@@ -196,6 +196,8 @@ makeScope newScope (
 
     statistics = callPackage ../development/octave-modules/statistics { };
 
+    statistics-resampling = callPackage ../development/octave-modules/statistics-resampling { };
+
     stk = callPackage ../development/octave-modules/stk { };
 
     strings = callPackage ../development/octave-modules/strings { };
