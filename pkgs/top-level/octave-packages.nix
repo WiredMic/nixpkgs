@@ -74,6 +74,10 @@ makeScope newScope (
 
     bsltl = callPackage ../development/octave-modules/bsltl { };
 
+    cfitsio = callPackage ../development/octave-modules/cfitsio {
+      inherit (pkgs) cfitsio;
+    };
+
     cgi = callPackage ../development/octave-modules/cgi { };
 
     chartjs = callPackage ../development/octave-modules/chartjs {
