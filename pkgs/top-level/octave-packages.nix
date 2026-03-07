@@ -74,6 +74,10 @@ makeScope newScope (
 
     cgi = callPackage ../development/octave-modules/cgi { };
 
+    chartjs = callPackage ../development/octave-modules/chartjs {
+      inherit (pkgs) crow;
+    };
+
     communications = callPackage ../development/octave-modules/communications { };
 
     coder = callPackage ../development/octave-modules/coder { };
