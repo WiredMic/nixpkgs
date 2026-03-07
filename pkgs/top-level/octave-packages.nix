@@ -272,6 +272,10 @@ makeScope newScope (
       inherit (pkgs) tzdata;
     };
 
+    tensorflow = callPackage ../development/octave-modules/tensorflow {
+      inherit (pkgs) libtensorflow;
+    };
+
     tsa = callPackage ../development/octave-modules/tsa { };
 
     video = callPackage ../development/octave-modules/video { };
