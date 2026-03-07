@@ -212,6 +212,8 @@ makeScope newScope (
 
     miscellaneous = callPackage ../development/octave-modules/miscellaneous { };
 
+    molsim = callPackage ../development/octave-modules/molsim { };
+
     mqtt = callPackage ../development/octave-modules/mqtt {
       inherit (pkgs) paho-mqtt-c;
     };
