@@ -278,6 +278,8 @@ makeScope newScope (
       inherit (pkgs) libtensorflow;
     };
 
+    timer = callPackage ../development/octave-modules/timer { };
+
     tsa = callPackage ../development/octave-modules/tsa { };
 
     video = callPackage ../development/octave-modules/video { };
