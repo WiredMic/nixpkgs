@@ -267,6 +267,10 @@ makeScope newScope (
 
     queueing = callPackage ../development/octave-modules/queueing { };
 
+    rtree = callPackage ../development/octave-modules/rtree {
+      inherit (pkgs) jansson;
+    };
+
     signal = callPackage ../development/octave-modules/signal { };
 
     sockets = callPackage ../development/octave-modules/sockets { };
