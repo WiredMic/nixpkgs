@@ -244,6 +244,8 @@ makeScope newScope (
       inherit (octave) python;
     };
 
+    octave-pool = callPackage ../development/octave-modules/octave-pool { };
+
     octave_toml11 = callPackage ../development/octave-modules/octave_toml11 {
       inherit (pkgs) toml11;
     };
