@@ -107,10 +107,11 @@ makeScope newScope (
     doctest = callPackage ../development/octave-modules/doctest { };
 
     econometrics = callPackage ../development/octave-modules/econometrics { };
-
     femoctave = callPackage ../development/octave-modules/femoctave {
       # inherit (pkgs) triangle;
     };
+
+    fileio = callPackage ../development/octave-modules/fileio { };
 
     fits = callPackage ../development/octave-modules/fits { };
 
