@@ -308,6 +308,8 @@ makeScope newScope (
 
     tsa = callPackage ../development/octave-modules/tsa { };
 
+    velas = callPackage ../development/octave-modules/velas { };
+
     video = callPackage ../development/octave-modules/video { };
 
     windows = callPackage ../development/octave-modules/windows { };
