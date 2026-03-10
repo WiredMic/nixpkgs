@@ -270,6 +270,10 @@ makeScope newScope (
       inherit (pkgs) lsb-release;
     };
 
+    pythonic = callPackage ../development/octave-modules/pythonic {
+      inherit (octave) python;
+    };
+
     quaternion = callPackage ../development/octave-modules/quaternion { };
 
     queueing = callPackage ../development/octave-modules/queueing { };
