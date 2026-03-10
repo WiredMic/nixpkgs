@@ -72,6 +72,10 @@ makeScope newScope (
 
     bim = callPackage ../development/octave-modules/bim { };
 
+    biosig = callPackage ../development/octave-modules/biosig {
+      # inherit (pkgs) biosig;
+    };
+
     bsltl = callPackage ../development/octave-modules/bsltl { };
 
     cfitsio = callPackage ../development/octave-modules/cfitsio {
