@@ -70,6 +70,11 @@ makeScope newScope (
 
     bim = callPackage ../development/octave-modules/bim { };
 
+    biosig = callPackage ../development/octave-modules/biosig {
+      # PLACEHOLDER until biosig gets packaged.
+      biosig = null;
+    };
+
     bsltl = callPackage ../development/octave-modules/bsltl { };
 
     caosdb = callPackage ../development/octave-modules/caosdb {
