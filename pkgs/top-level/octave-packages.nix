@@ -266,6 +266,10 @@ makeScope newScope (
       inherit (pkgs) texi2html;
     };
 
+    prompt = callPackage ../development/octave-modules/prompt {
+      inherit (pkgs) lsb-release;
+    };
+
     quaternion = callPackage ../development/octave-modules/quaternion { };
 
     queueing = callPackage ../development/octave-modules/queueing { };
