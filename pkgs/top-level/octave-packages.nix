@@ -270,6 +270,8 @@ makeScope newScope (
       inherit (pkgs) texi2html;
     };
 
+    ponchon-savarit = callPackage ../development/octave-modules/ponchon-savarit { };
+
     prompt = callPackage ../development/octave-modules/prompt {
       inherit (pkgs) lsb-release;
     };
