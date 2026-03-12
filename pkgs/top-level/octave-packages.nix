@@ -248,6 +248,8 @@ makeScope newScope (
       inherit (pkgs) lsb-release;
     };
 
+    psychrometrics = callPackage ../development/octave-modules/psychrometrics { };
+
     pythonic = callPackage ../development/octave-modules/pythonic {
       inherit (octave) python;
     };
