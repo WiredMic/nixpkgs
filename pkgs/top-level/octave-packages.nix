@@ -78,6 +78,14 @@ makeScope newScope (
 
     bsltl = callPackage ../development/octave-modules/bsltl { };
 
+    caosdb = callPackage ../development/octave-modules/caosdb {
+      inherit (pkgs)
+        # caosdb
+        boost
+        gtest
+        ;
+    };
+
     cfitsio = callPackage ../development/octave-modules/cfitsio {
       inherit (pkgs) cfitsio;
     };
