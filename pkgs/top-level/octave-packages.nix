@@ -306,6 +306,8 @@ makeScope newScope (
 
     sockets = callPackage ../development/octave-modules/sockets { };
 
+    sole = callPackage ../development/octave-modules/sole { };
+
     stk = callPackage ../development/octave-modules/stk { };
 
     splines = callPackage ../development/octave-modules/splines { };
