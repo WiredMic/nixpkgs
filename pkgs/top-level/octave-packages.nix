@@ -157,6 +157,8 @@ makeScope newScope (
       inherit (octave) enableJava;
     };
 
+    internal-fluid-flow = callPackage ../development/octave-modules/internal-fluid-flow { };
+
     interval = callPackage ../development/octave-modules/interval { };
 
     joystick = callPackage ../development/octave-modules/joystick {
