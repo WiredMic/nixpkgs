@@ -225,6 +225,8 @@ makeScope newScope (
       inherit (pkgs) gtest;
     };
 
+    mccabe-thiele = callPackage ../development/octave-modules/mccabe-thiele { };
+
     miscellaneous = callPackage ../development/octave-modules/miscellaneous { };
 
     molsim = callPackage ../development/octave-modules/molsim { };
