@@ -188,6 +188,8 @@ makeScope newScope (
 
     queueing = callPackage ../development/octave-modules/queueing { };
 
+    raspi = callPackage ../development/octave-modules/raspi { };
+
     signal = callPackage ../development/octave-modules/signal { };
 
     sockets = callPackage ../development/octave-modules/sockets { };
