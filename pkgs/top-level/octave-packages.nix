@@ -302,6 +302,8 @@ makeScope newScope (
 
     queueing = callPackage ../development/octave-modules/queueing { };
 
+    raspi = callPackage ../development/octave-modules/raspi { };
+
     rtree = callPackage ../development/octave-modules/rtree {
       inherit (pkgs) jansson;
     };
