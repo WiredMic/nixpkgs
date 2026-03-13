@@ -314,13 +314,13 @@ makeScope newScope (
 
     sole = callPackage ../development/octave-modules/sole { };
 
-    stk = callPackage ../development/octave-modules/stk { };
-
     splines = callPackage ../development/octave-modules/splines { };
 
     statistics = callPackage ../development/octave-modules/statistics { };
 
     statistics-resampling = callPackage ../development/octave-modules/statistics-resampling { };
+
+    stk = callPackage ../development/octave-modules/stk { };
 
     strings = callPackage ../development/octave-modules/strings { };
 
