@@ -192,11 +192,11 @@ makeScope newScope (
 
     sockets = callPackage ../development/octave-modules/sockets { };
 
-    stk = callPackage ../development/octave-modules/stk { };
-
     splines = callPackage ../development/octave-modules/splines { };
 
     statistics = callPackage ../development/octave-modules/statistics { };
+
+    stk = callPackage ../development/octave-modules/stk { };
 
     strings = callPackage ../development/octave-modules/strings { };
 
