@@ -68,6 +68,8 @@ makeScope newScope (
 
     audio = callPackage ../development/octave-modules/audio { };
 
+    automatic-differentiation = callPackage ../development/octave-modules/automatic-differentiation { };
+
     bim = callPackage ../development/octave-modules/bim { };
 
     bioinfo = callPackage ../development/octave-modules/bioinfo { };
