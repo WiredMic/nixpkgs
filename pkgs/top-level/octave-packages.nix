@@ -122,6 +122,8 @@ makeScope newScope (
 
     doctest = callPackage ../development/octave-modules/doctest { };
 
+    dynamicprops = callPackage ../development/octave-modules/dynamicprops { };
+
     econometrics = callPackage ../development/octave-modules/econometrics { };
     femoctave = callPackage ../development/octave-modules/femoctave {
       # inherit (pkgs) triangle;
