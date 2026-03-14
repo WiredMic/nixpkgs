@@ -350,6 +350,8 @@ makeScope newScope (
 
     video = callPackage ../development/octave-modules/video { };
 
+    websockets = callPackage ../development/octave-modules/websockets { };
+
     windows = callPackage ../development/octave-modules/windows { };
 
     zeromq = callPackage ../development/octave-modules/zeromq {
