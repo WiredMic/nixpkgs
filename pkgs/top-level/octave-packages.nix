@@ -92,6 +92,8 @@ makeScope newScope (
 
     doctest = callPackage ../development/octave-modules/doctest { };
 
+    dynamicprops = callPackage ../development/octave-modules/dynamicprops { };
+
     econometrics = callPackage ../development/octave-modules/econometrics { };
 
     fda = callPackage ../development/octave-modules/fda { };
