@@ -118,6 +118,8 @@ makeScope newScope (
       inherit (pkgs) gsl;
     };
 
+    hgsetget = callPackage ../development/octave-modules/hgsetget { };
+
     image = callPackage ../development/octave-modules/image {
       inherit (pkgs)
         mesa
