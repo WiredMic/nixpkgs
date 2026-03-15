@@ -234,6 +234,8 @@ makeScope newScope (
 
     octproj = callPackage ../development/octave-modules/octproj { };
 
+    onsas = callPackage ../development/octave-modules/onsas { };
+
     optics = callPackage ../development/octave-modules/optics { };
 
     optim = callPackage ../development/octave-modules/optim { };
