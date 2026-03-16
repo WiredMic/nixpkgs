@@ -94,6 +94,8 @@ makeScope newScope (
 
     econometrics = callPackage ../development/octave-modules/econometrics { };
 
+    fda = callPackage ../development/octave-modules/fda { };
+
     fileio = callPackage ../development/octave-modules/fileio { };
 
     fits = callPackage ../development/octave-modules/fits { };
