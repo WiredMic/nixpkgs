@@ -195,6 +195,10 @@ makeScope newScope (
 
     molsim = callPackage ../development/octave-modules/molsim { };
 
+    mpi = callPackage ../development/octave-modules/mpi {
+      inherit (pkgs) mpi;
+    };
+
     mqtt = callPackage ../development/octave-modules/mqtt {
       inherit (pkgs) paho-mqtt-c;
     };
