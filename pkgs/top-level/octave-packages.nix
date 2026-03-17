@@ -140,6 +140,8 @@ makeScope newScope (
 
     financial = callPackage ../development/octave-modules/financial { };
 
+    fl-core = callPackage ../development/octave-modules/fl-core { };
+
     fpl = callPackage ../development/octave-modules/fpl { };
 
     fuzzy-logic-toolkit = callPackage ../development/octave-modules/fuzzy-logic-toolkit { };
