@@ -112,6 +112,8 @@ makeScope newScope (
 
     control = callPackage ../development/octave-modules/control { };
 
+    csg-dataset = callPackage ../development/octave-modules/csg-dataset { };
+
     csg-toolkit = callPackage ../development/octave-modules/csg-toolkit { };
 
     data-smoothing = callPackage ../development/octave-modules/data-smoothing { };
