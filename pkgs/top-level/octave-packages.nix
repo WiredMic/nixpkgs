@@ -288,6 +288,10 @@ makeScope newScope (
       inherit (octave) python;
     };
 
+    octave_php_wrapper = callPackage ../development/octave-modules/octave_php_wrapper {
+      inherit (pkgs) php;
+    };
+
     octave-pool = callPackage ../development/octave-modules/octave-pool { };
 
     octave_toml11 = callPackage ../development/octave-modules/octave_toml11 {
