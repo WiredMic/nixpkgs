@@ -216,6 +216,10 @@ makeScope newScope (
       inherit (octave) python;
     };
 
+    octave_toml11 = callPackage ../development/octave-modules/octave_toml11 {
+      inherit (pkgs) toml11;
+    };
+
     octclip = callPackage ../development/octave-modules/octclip { };
 
     octproj = callPackage ../development/octave-modules/octproj { };
