@@ -401,5 +401,6 @@ makeScope newScope (
     vrml = throw "octavePackages.vrml has been removed due to being broken for more than a year; see RFC 180"; # Added 2026-02-05
     outliers = throw "octavePackages.outliers has not been updated since 2009-05-06"; # Added 2026-03-19
     secs1d = throw "octavePackages.secs1d has not been updated since 2012-03-30"; # Added 2026-03-19
+    secs2d = throw "octavePackages.secs2d has not been updated since 2009-05-06"; # Added 2026-03-19
   }
 )
