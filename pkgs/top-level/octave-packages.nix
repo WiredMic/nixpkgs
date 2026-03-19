@@ -230,6 +230,8 @@ makeScope newScope (
 
     optiminterp = callPackage ../development/octave-modules/optiminterp { };
 
+    piqp = callPackage ../development/octave-modules/piqp { };
+
     pkg-octave-doc = callPackage ../development/octave-modules/pkg-octave-doc {
       inherit (pkgs) texi2html;
     };
