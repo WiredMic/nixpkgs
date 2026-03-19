@@ -244,6 +244,10 @@ makeScope newScope (
 
     raspi = callPackage ../development/octave-modules/raspi { };
 
+    rtree = callPackage ../development/octave-modules/rtree {
+      inherit (pkgs) jansson;
+    };
+
     signal = callPackage ../development/octave-modules/signal { };
 
     sockets = callPackage ../development/octave-modules/sockets { };
