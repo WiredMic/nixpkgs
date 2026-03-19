@@ -402,5 +402,6 @@ makeScope newScope (
     outliers = throw "octavePackages.outliers has not been updated since 2009-05-06"; # Added 2026-03-19
     secs1d = throw "octavePackages.secs1d has not been updated since 2012-03-30"; # Added 2026-03-19
     secs2d = throw "octavePackages.secs2d has not been updated since 2009-05-06"; # Added 2026-03-19
+    secs3d = throw "octavePackages.secs3d has not been updated since 2011-09-08"; # Added 2026-03-19
   }
 )
